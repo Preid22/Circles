@@ -1,8 +1,9 @@
-* {
-  border: 1px solid red;
-}
+
 
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -15,6 +16,9 @@
 }
 
 .area {
-  height: 100vh;
-  width: 100vw;
+  height: 500px;
+  width: 500px;
+  border: 5px solid black;
+  margin-top: 10px;
+  border-radius: 5%;
 }
